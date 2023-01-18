@@ -1,6 +1,6 @@
 .bikes {
     max-width: calc(100% - 240px);
-    margin: 0 auto;
+    margin: 120px auto 60px;
 }
 
 .bikes__info {
@@ -8,7 +8,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .bikes__heading {
@@ -60,27 +59,13 @@
     gap: 30px;
 }
 
-.item {}
-
-.placeholder {
-    width: 380px;
-    height: 380px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    background: #fff;
-    border-radius: 20px;
-}
-
 .item__cover {
     width: 340px;
     height: 340px;
 }
 
 .item__title {
-    margin: 22px 0 0;
+    margin: 22px 5px 0;
     padding: 0;
 
     font-family: 'Inter';

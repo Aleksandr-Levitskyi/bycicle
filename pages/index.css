@@ -4,6 +4,12 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/content/content.css);
 
+/* заголовок и подзаголовок */
+@import url(../blocks/info/info.css);
+
+/* белая подложка в карточках */
+@import url(../blocks/placeholder/placeholder.css);
+
 @import url(../blocks/header/header.css);
 
 @import url(../blocks/bike-fix/bike-fix.css);

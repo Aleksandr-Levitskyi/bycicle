@@ -1,0 +1,19 @@
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: #fff;
+    border-radius: 20px;
+}
+
+.placeholder--type--bike-fix {
+    width: 440px;
+    height: 300px;
+
+}
+
+.placeholder--type--bikes {
+    width: 380px;
+    height: 380px;
+}

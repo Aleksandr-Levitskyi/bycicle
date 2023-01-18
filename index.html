@@ -14,24 +14,24 @@
     <header class="header">
         <nav>
             <ul class="header__menu">
-                <li><a href="" class="header__link">Покрытия и градиенты</a></li>
-                <li><a href="" class="header__link">Велосипеды</a></li>
-                <li><a href="" class="header__link">Тренировки</a></li>
+                <li><a href="#" class="header__link">Покрытия и градиенты</a></li>
+                <li><a href="#" class="header__link">Велосипеды</a></li>
+                <li><a href="#" class="header__link">Тренировки</a></li>
             </ul>
         </nav>
     </header>
     <main class="content">
         <section class="bike-fix">
-            <div class="bike-fix__info">
-                <h1 class="bike-fix__title">Шоссе, ТТ <!-- можно сделать универсальным -->
-                    и&nbsp;Грэвел</h1> <!-- можно сделать универсальным -->
-                <p class="bike-fix__subtitle">Триатлонные старты, горные серпантины или грейвел заезды по живописным
+            <div class="info">
+                <h1 class="info__title">Шоссе, ТТ
+                    и&nbsp;Грэвел</h1>
+                <p class="info__subtitle">Триатлонные старты, горные серпантины или грейвел заезды по живописным
                     маршрутам – нужно только определиться с выбором велосипеда и отправиться в путь.</p>
-                <button class="bike-fix__button" type="button" aria-label="Подробнее">Подробнее</button>
+                <button class="info__button" type="button" aria-label="Подробнее">Подробнее</button>
                 <p class="bike-fix__cicle">Cannondale Systemsix</p>
             </div>
             <div class="bike-fix__cover">
-                <div class="bike-fix__bike-bc">
+                <div class="placeholder placeholder--type--bike-fix">
                     <img src="./images/bike-img.png" alt="Cannondale Systemsix" class="bike-fix__bike-img">
                 </div>
             </div>
@@ -50,11 +50,11 @@
             </div>
         </section>
         <section class="type">
-            <div class="type__info"> <!-- можно сделать универсальным -->
-                <h2 class="type__heading">Шоссе</h2> <!-- можно сделать универсальным -->
-                <p class="type__paragraph">На шоссейном велосипеде можно ездить по асфальту на разных градиентах:
+            <div class="info info--type--type">
+                <h2 class="info__title">Шоссе</h2>
+                <p class="info__subtitle">На шоссейном велосипеде можно ездить по асфальту на разных градиентах:
                     будь то горы или равнины. Гонки проходят в командном пелотоне, но тренироваться можно и
-                    самостоятельно.</p> <!-- можно сделать универсальным -->
+                    самостоятельно.</p>
             </div>
             <div class="type__slider slider">
                 <ul class="slider__images">
@@ -71,44 +71,45 @@
             <div class="bikes__info">
                 <h2 class="bikes__heading">Велосипеды</h2>
                 <ul class="bikes__menu">
-                    <li><a href="#" class="bikes__link">Шоссе</a></li>
-                    <li><a href="#" class="bikes__link">Грэвел</a></li>
-                    <li><a href="#" class="bikes__link">TT</a></li>
+                    <li class="bikes__menu-item"><a href="#" class="bikes__link">Шоссе</a></li>
+                    <li class="bikes__menu-item"><a href="#" class="bikes__link">Грэвел</a></li>
+                    <li class="bikes__menu-item"><a href="#" class="bikes__link">TT</a></li>
                 </ul>
             </div>
             <ul class="bikes__cards">
                 <li>
                     <article class="bikes__item item">
-                        <div class="placeholder"><img src="./images/Cervelo-Caledonia-5.jpg" alt="Cervelo Caledonia-5"
-                                class="item__cover"></div>
+                        <div class="placeholder placeholder--type--bikes"><img src="./images/Cervelo-Caledonia-5.jpg"
+                                alt="Cervelo Caledonia-5" class="item__cover"></div>
                         <h3 class="item__title">Cervelo Caledonia-5</h3>
                     </article>
                 </li>
                 <li>
                     <article class="bikes__item item">
-                        <div class="placeholder"><img src="./images/Cannondale-Systemsix-Himod.jpg"
-                                alt="Cannondale Systemsix Himod" class="item__cover"></div>
+                        <div class="placeholder placeholder--type--bikes"><img
+                                src="./images/Cannondale-Systemsix-Himod.jpg" alt="Cannondale Systemsix Himod"
+                                class="item__cover"></div>
                         <h3 class="item__title">Cannondale Systemsix Himod</h3>
                     </article>
                 </li>
                 <li>
                     <article class="bikes__item item">
-                        <div class="placeholder"><img src="./images/Trek-Domane-SL-7.jpg" alt="Trek Domane SL-7"
-                                class="item__cover"></div>
+                        <div class="placeholder placeholder--type--bikes"><img src="./images/Trek-Domane-SL-7.jpg"
+                                alt="Trek Domane SL-7" class="item__cover"></div>
                         <h3 class="item__title">Trek Domane SL-7</h3>
                     </article>
                 </li>
             </ul>
         </section>
         <section class="traning">
-            <div class="traning__info">
-                <h2 class="traning__title">Тренировки</h2>
-                <p class="traning__subtitle">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а
+            <div class="info info--type--traning">
+                <h2 class="info__title">Тренировки</h2>
+                <p class="info__subtitle">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а
                     записать эти тренировки поможет приложение Strava, а также это приложение позволит построить
                     тренировочный план.</p>
-                <ul class="traning__track">
-                    <li class="traning__link-item"><a href="#" class="traning__link">Strava</a></li>
-                    <li class="traning__link-item"><a href="#" class="traning__link">Komoot</a></li>
+                <ul class="info__track">
+                    <li class="info__link-item"><a href="#" class="info__link">Strava</a></li>
+                    <li class="info__link-item"><a href="#" class="info__link">Komoot</a></li>
                 </ul>
             </div>
             <img src="./images/traning__cover.jpg" alt="дорога через лес" class="traning__cover">
