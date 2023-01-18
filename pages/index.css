@@ -1,0 +1,19 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/bike-fix/bike-fix.css);
+
+@import url(../blocks/blockquote/blockquote.css);
+
+@import url(../blocks/type/type.css);
+
+@import url(../blocks/bikes/bikes.css);
+
+@import url(../blocks/traning/traning.css);
+
+@import url(../blocks/footer/footer.css);

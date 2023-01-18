@@ -1,0 +1,12 @@
+.page {
+    max-width: 1440px;
+    margin: 0 auto;
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    background: #333333;
+    color: #fff;
+}
